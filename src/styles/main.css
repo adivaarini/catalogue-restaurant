@@ -1,0 +1,268 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'cursive';
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  color: #000000;
+  font-size: 13px;
+}
+
+.skip-content {
+	position: absolute;
+	top: -100px;
+	left: 0px;
+	padding: 8px;
+	background-color: #66BFBF;
+	color: #000000;
+	font-size: 12px;
+	z-index: 100;
+	text-decoration: none;
+}
+
+.skip-content:focus {
+	top: 100px;
+}
+
+.hero-content {
+	width: 100%;
+	padding: 10px;
+	background-color: #66BFBF;
+	color: #FFFFFF !important;
+	font-weight: bold;
+	font-size: 20px;
+	justify-content: space-between;
+	display: flex;
+}
+
+.navbar-hero {
+	width: 100%;
+	background-color: #66BFBF;
+	font-weight: bold;
+	font-size: 14px;
+	text-transform: uppercase;
+	display: flex;
+}
+
+.navbar-list-hero {
+	width: 60%;
+	padding: 0px;
+	margin: 0px;
+	text-align: left;
+}
+
+.navbar-item-hero {
+	box-sizing: border-box;
+	line-height: 24px;
+	color: #FFFFFF !important;
+	text-align: right;
+	text-transform: uppercase;
+	display: inline-block;
+}
+
+.icon-hero a {
+	padding: 18px;
+	color: #FFFFFF !important;
+	text-decoration: none;
+}
+
+.navbar-hero a {
+	padding: 22px;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.navbar {
+	width: 100%;
+	background-color: #66BFBF;
+	font-weight: bold;
+	font-size: 18px;
+	text-transform: uppercase;
+	display: flex;
+}
+
+.navbar-list {
+	width: 80%;
+	padding: 0px;
+	margin: 0px;
+	text-align: right;
+}
+
+.logo-hero {
+	box-sizing: border-box;
+	width: 20%;
+	line-height: 25px;
+	padding: 0px;
+	margin: 0px;
+	text-align: left;
+	display: inline-block;
+}
+
+.navbar-item {
+	box-sizing: border-box;
+	line-height: 25px;
+	text-align: right;
+	text-transform: uppercase;
+	display: inline-block;
+}
+
+.navbar a {
+	padding: 22px;
+	color: #FFFFFF !important;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.navbar a:hover {
+	text-decoration: none;
+}
+
+.jumbotron {
+	width: 100%;
+	height: 50%;
+	background-image: linear-gradient(rgba(0, 0, 5, .5), rgba(0, 0, 5, .5)), url('/src/public/images/heros/hero-image_2.jpg');
+	background-color: #000000 !important;
+	background-position: cover;
+	text-align: center;
+	align-items: center;
+	display: flex;
+}
+
+.jumbotron-content {
+	max-width: 800px;
+	margin: 0px auto;
+}
+
+.title-jumbotron {
+	padding: 44px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 30px;
+	text-shadow: 2px 1px #000000;
+}
+
+.text-jumbotron {
+	margin-top: 16px;
+	color: #FFFFFF;
+	font-size: 18px;
+	font-weight: lighter;
+	text-shadow: 2px 1px #000000;
+}
+
+main {
+	width: 100%;
+	margin: 0px auto;
+}
+
+.content-main {
+	padding: 32px;
+}
+
+.last-content {
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.last-content h1 {
+	margin-bottom: 50px;
+	font-weight: bold;
+	font-size: 32px;
+}
+
+.list-content {
+	margin: 32px auto;
+	text-align: left;
+	display: grid;
+	grid-row-gap: 26px;
+}
+
+.item-restaurant {
+	box-shadow: 0px 4px 8px 0 rgba(196, 255, 255, 0.849);
+	width: 100%;
+	border-radius: 5px;
+	padding: 10px;
+	overflow: hidden;
+	position: relative;
+}
+
+.city-restaurant {
+	position: absolute;
+	top: 8px;
+	left: 16px;
+	padding: 20px;
+	background-color: #66BFBF;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+}
+
+.content-item {
+	padding: 16px;
+}
+
+.image-item-restaurant {
+	width: 100%;
+	max-width: 400px;
+	max-height: 200px;
+}
+
+.rating-item-restaurant {
+	color: #66BFBF;
+	font-weight: bold;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.value-rate-restaurant {
+	padding: 20px;
+	margin: -10px;
+	color: #FF0063;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.title-item-restaurant{
+	margin: -20px;
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: 14px;
+	transition: 0.3s;
+}
+
+.title-item-restaurant:hover {
+	opacity: 0.5;
+}
+
+.title-item-restaurant a {
+	padding: 18px;
+	color: #000000;
+	text-decoration: none;
+}
+
+.desc-item-restaurant {
+	line-height: 24px;
+	margin-top: -30px;
+	font-size: 12px;
+}
+
+footer {
+	width: 100%;
+	padding: 32px;
+	background-color: #66BFBF;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+}
